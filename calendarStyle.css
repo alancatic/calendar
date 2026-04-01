@@ -1,177 +1,148 @@
 body {
-font-family: 'Segoe UI', Arial, sans-serif;
-background: #e6e6e6;
-display: flex;
-justify-content: center;
-align-items: center;      /* center vertically */
-min-height: 100vh;        /* full screen height */
-margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #e6e6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;   
+    margin: 0;
 }
 
-/* Container */
 .calendarContainer {
-display: flex;
-flex-direction: column;
-align-items: center;
-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* Top Image */
 .image {
-position: relative;
-width: 90vw;              /* responsive width */
-max-width: 500px;
-height: 25vh;             /* responsive height */
-min-height: 150px;
-overflow: hidden;
-border-radius: 20px 20px 0 0;
-box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    position: relative;
+    width: 450px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
 .image img {
-width: 100%;
-height: 100%;
-object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-/* Month Text */
 .monthYear {
-position: absolute;
-top: 65%;
-left: 50%;
-transform: translate(-50%, -50%);
-font-family: 'Poppins', sans-serif;
-font-size: 40px;
-color: white;
-font-weight: 700;
-text-shadow: 5px 5px 8px rgba(0,0,0,0.7);
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    text-shadow: 10px 10px 8px rgba(0,0,0,0.7);
 }
 
-/* Calendar Table */
 .calendar {
-width: 90vw;              /* responsive width */
-max-width: 500px;
-border-radius: 0 0 20px 20px;
-overflow: hidden;
-background: #ffffff;
-border-collapse: collapse;
-text-align: center;
-box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+    width: 450px;
+    border-radius: 0 0 20px 20px;
+    overflow: hidden;
+    background: #ffffff;    /* white */
+    border-collapse: collapse;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
 }
 
-/* Days Header */
 .calendar thead .days th {
-background: #f0f0f0;
-padding: 10px;
-text-transform: uppercase;
-font-size: 14px;
+    background: #f0f0f0;  /* grey */
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
 }
 
-/* Calendar Cells */
 .calendar tbody td {
-width: 14.2%;
-height: 60px;
-font-size: 18px;
-background: white;
-border: 1px solid #e3e3e3;
-transition: 0.2s;
-position: relative;
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    background: white;
+    border: 1px solid #e3e3e3;  /* light grey */
+    transition: 0.2s;
+    position: relative;
 }
 
 .calendar tbody td:hover {
-background: #f3f8ff;
-transform: scale(1.05);
-cursor: pointer;
+    background: #f3f8ff;
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
-/* Sundays */
 .calendar tbody td:first-child {
-color: #b30000;
+    color: #b30000; /* maroon */
 }
 
-/* Modal Background */
+
+
 #eventModal {
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background: rgba(0,0,0,0.6);
-display: none;
-justify-content: center;
-align-items: center;
-z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
 }
 
-/* Modal Box */
 #eventModal .modalContent {
-background: white;
-padding: 25px;
-width: 90%;
-max-width: 350px;
-border-radius: 12px;
-box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    background: white;
+    padding: 25px;
+    width: 350px; 
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
 }
 
 #eventModal h2 {
-margin-bottom: 12px;
-text-align: center;
+    margin-bottom: 12px;
+    text-align: center;
 }
 
-/* Inputs */
 #eventModal input,
 #eventModal textarea {
-width: 100%;
-padding: 10px;
-border: 1px solid #0c0c0c;
-border-radius: 6px;
-margin-top: 8px;
-margin-bottom: 12px;
-box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #0c0c0c;
+    border-radius: 6px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
 }
 
 #eventModal textarea {
-resize: vertical;
+    resize: vertical;
 }
 
-/* Button */
 #eventModal button {
-width: 100%;
-padding: 10px;
-background: #0078ff;
-border: none;
-border-radius: 6px;
-color: white;
-font-size: 15px;
-cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    background: #0078ff;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
 }
 
 #eventModal button:hover {
-background: #005fcc;
+    background: #005fcc;
 }
 
-/* Event Dot */
 .eventDot {
-width: 6px;
-height: 6px;
-background: #b30000;
-border-radius: 50%;
-position: absolute;
-bottom: 6px;
-left: 50%;
-transform: translate(-50%, -50%);
-}
-
-@media (max-width: 600px) {
-.monthYear {
-font-size: 28px;
-}
-
-```
-.calendar tbody td {
-    height: 50px;
-    font-size: 14px;
-}
-```
-
+    width: 6px;
+    height: 6px;
+    background: #b30000;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 6px;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
