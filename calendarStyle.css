@@ -84,8 +84,8 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 150%;
-    height: 150%;
+    width: 100%;
+    height: 100%;
     background: rgba(0,0,0,0.6);
     display: none;
     justify-content: center;
@@ -145,25 +145,4 @@ body {
     bottom: 6px;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-@media only screen and (max-width: 600px) {
-    /* Make calendar container larger and fully centered */
-    .calendarContainer {
-        width: 95vw;  /* container fills most of the screen width */
-        transform: none; /* remove previous scaling */
-    }
-
-    .image {
-        width: 100%;   /* responsive width */
-        height: 40vw;  /* height scales proportionally */
-    }
-
-    .calendar {
-        width: 100%;   /* table fills container */
-    }
-
-    .monthYear {
-        font-size: 6vw;  /* responsive text */
-    }
 }
