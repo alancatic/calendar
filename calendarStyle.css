@@ -146,3 +146,24 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/* Make calendar larger on smaller screens (phones) */
+@media only screen and (max-width: 600px) {
+    .calendarContainer {
+        transform: scale(1.2);  /* increases size by 20% */
+        transform-origin: top center; /* keeps it centered */
+    }
+
+    .image {
+        width: 90vw;   /* image resizes with screen width */
+        height: 40vw;  /* keeps aspect ratio */
+    }
+
+    .calendar {
+        width: 90vw;   /* calendar table width adapts */
+    }
+
+    .monthYear {
+        font-size: 6vw;  /* text scales with screen */
+    }
+}
