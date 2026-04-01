@@ -84,8 +84,8 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 150%;
+    height: 150%;
     background: rgba(0,0,0,0.6);
     display: none;
     justify-content: center;
@@ -147,23 +147,23 @@ body {
     transform: translate(-50%, -50%);
 }
 
-/* Make calendar larger on smaller screens (phones) */
 @media only screen and (max-width: 600px) {
+    /* Make calendar container larger and fully centered */
     .calendarContainer {
-        transform: scale(1.2);  /* increases size by 20% */
-        transform-origin: top center; /* keeps it centered */
+        width: 95vw;  /* container fills most of the screen width */
+        transform: none; /* remove previous scaling */
     }
 
     .image {
-        width: 90vw;   /* image resizes with screen width */
-        height: 40vw;  /* keeps aspect ratio */
+        width: 100%;   /* responsive width */
+        height: 40vw;  /* height scales proportionally */
     }
 
     .calendar {
-        width: 90vw;   /* calendar table width adapts */
+        width: 100%;   /* table fills container */
     }
 
     .monthYear {
-        font-size: 6vw;  /* text scales with screen */
+        font-size: 6vw;  /* responsive text */
     }
 }
