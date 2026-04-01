@@ -4,9 +4,7 @@ let currentDayCell = null;
 document.addEventListener("DOMContentLoaded", () => {
     const modal = document.getElementById("eventModal");
 
-    // Make sure modal is hidden on page load
-    modal.style.display = "none";
-
+    // modal already hidden via inline style, no need to set here
     const dayCells = document.querySelectorAll(".calendar tbody td");
 
     dayCells.forEach(cell => {
@@ -30,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 document.getElementById("eventDesc").value = "";
                 document.getElementById("eventTime").value = "";
 
-                // only now show the modal
+                // show modal only on click
                 modal.style.display = "flex";
             });
         }
