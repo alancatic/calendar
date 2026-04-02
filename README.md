@@ -47,16 +47,17 @@
 - Drag-and-drop event editing
 - Color-coded categories for events
 
-# Calendar Interface
+# Screenshots
+### Calendar Interface
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/c9d692af-fd7d-4c92-8ad4-ec83682842cf" />
 
-# Popup Modal
+### Popup Modal
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/c2f4ecec-3461-495d-9408-52e4e8b1f4a6" />
 
-# Event Management
+### Event Management
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/bf7ea0b0-58f8-4177-b885-1f5a065b72a0" />
 
-# Overlap Detection
+### Overlap Detection
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/70355450-2346-4bd8-89d3-578faddd3520" />
 
 # Authors:
