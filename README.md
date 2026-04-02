@@ -60,6 +60,10 @@
 ### Overlap Detection
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/70355450-2346-4bd8-89d3-578faddd3520" />
 
+### Event Indicator
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/30b4193d-57ba-4558-b826-c0011f2196ac" />
+
+
 # Authors
 - Alan Catic,
 - Colin Zouck
