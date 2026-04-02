@@ -52,7 +52,7 @@ Authors
   Colin Zouck
 Advisor: Dr. Unnati Shah
 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/c9d692af-fd7d-4c92-8ad4-ec83682842cf" />
-<img width="658" height="665" alt="image" src="https://github.com/user-attachments/assets/c2f4ecec-3461-495d-9408-52e4e8b1f4a6" />
-<img width="668" height="675" alt="image" src="https://github.com/user-attachments/assets/bf7ea0b0-58f8-4177-b885-1f5a065b72a0" />
-<img width="668" height="675" alt="image" src="https://github.com/user-attachments/assets/dc4eba82-6121-4e3a-a888-f218afd98ac0" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/c9d692af-fd7d-4c92-8ad4-ec83682842cf" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/c2f4ecec-3461-495d-9408-52e4e8b1f4a6" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/bf7ea0b0-58f8-4177-b885-1f5a065b72a0" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/dc4eba82-6121-4e3a-a888-f218afd98ac0" />
